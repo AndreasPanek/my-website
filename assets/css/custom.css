@@ -6,6 +6,6 @@
 	background-image: linear-gradient(to top, #4caf50 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
 }
 
-.fab:hover, a:hover, .typed-cursor, .typed-cursor.typed-cursor--blink, .nav-pills-success {
+.fab:hover, a:hover, .typed-cursor, .typed-cursor.typed-cursor--blink {
 	color: #4caf50;
 }
