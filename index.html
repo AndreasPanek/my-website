@@ -13,6 +13,7 @@
   <!-- CSS Custom edit-->
   <link href="assets/css/custom.css" rel="stylesheet" />
   <link href="assets/css/all.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155356765-1"></script>
@@ -23,6 +24,12 @@
     gtag('config', 'UA-155356765-1', { ‚anonymize_ip‘: true });
   </script>
 </head>
+
+<!-- START Bootstrap-Cookie-Alert -->
+<div class="alert text-center cookiealert" role="alert">Diese Webseite nutzt Cookies<i class="fas fa-cookie-bite px-1"></i>Durch die Nutzung der Website stimmen Sie der <a href="datenschutz.html">Verwendung</a> von Cookies zu.
+  <button type="button" class="btn btn-success btn-sm acceptcookies" aria-label="Close">Alles klar!</button>
+</div>
+<!-- END Bootstrap-Cookie-Alert -->
 
 <body class="profile-page sidebar-collapse">
   <div class="spinner-wrapper"></div>
@@ -206,6 +213,7 @@
   <script src="assets/js/material-kit.js?v=2.0.6" type="text/javascript"></script>
   <!--    Custom    -->
   <script src="assets/js/plugins/typed.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>  
   <script>
     var typed = new Typed('.type', {
       // Waits 1000ms after typing "First"
